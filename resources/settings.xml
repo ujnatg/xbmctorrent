@@ -14,13 +14,19 @@
         <setting id="max_download_rate" label="Max Download Rate (kB/s)" type="number" default="" />
         <setting id="encryption" label="Encryption" type="enum" values="Forced|Enabled|Disabled" default="1" />
     </category>
+    <category label="Scrapers">
+        <setting label="Enable Scrapers" type="lsep"/>
+        <setting id="eztv_enabled" type="bool" label="EZTV" default="true" />
+        <setting id="yify_enabled" type="bool" label="YIFY Torrents" default="true" />
+        <setting id="kickass_enabled" type="bool" label="Kickass Torrents" default="true" />
+        <setting id="tpb_enabled" type="bool" label="The Pirate Bay" default="true" />
+    </category>
     <category label="Advanced">
-
         <setting label="Custom domains" type="lsep"/>
         <setting id="base_eztv" type="text" label="EZTV" default="http://eztv.it" />
         <setting id="base_yify" type="text" label="YIFY Torrents" default="http://yify-torrents.com" />
         <setting id="base_kickass" type="text" label="Kickass Torrents" default="http://kickass.to" />
-        <setting id="base_tpb" type="text" label="The Pirate Bay" default="http://thepiratebay.org" />
+        <setting id="base_tpb" type="text" label="The Pirate Bay" default="http://thepiratebay.se" />
 
         <setting label="Pornographic Content" type="lsep"/>
         <setting id="porn" type="bool" label="Enable" default="true" />
