@@ -13,16 +13,25 @@
         <setting id="max_upload_rate" label="Max Upload Rate (kB/s)" type="number" default="" />
         <setting id="max_download_rate" label="Max Download Rate (kB/s)" type="number" default="" />
         <setting id="encryption" label="Encryption" type="enum" values="Forced|Enabled|Disabled" default="1" />
+
+        <setting label="AceStream options" type="lsep" />
+        <setting id="force_ace" label="Force using AceEngine" type="bool" default="false"/>
+        <setting id="ace_keep_encripted" label="Keep encripted files" type="bool" default="false" enable="eq(-8,true)"/>
     </category>
     <category label="Scrapers">
         <setting label="Enable Scrapers" type="lsep"/>
+        <setting id="rutor_enabled" type="bool" label="RuTor.org" default="true" />
         <setting id="eztv_enabled" type="bool" label="EZTV" default="true" />
         <setting id="yify_enabled" type="bool" label="YIFY Torrents" default="true" />
         <setting id="kickass_enabled" type="bool" label="Kickass Torrents" default="true" />
         <setting id="tpb_enabled" type="bool" label="The Pirate Bay" default="true" />
+
+        <setting label="RuTor.org" type="lsep"/>
+        <setting id="rutor_usesearch" type="bool" label="Search movie info at internet" default="false" />
     </category>
     <category label="Advanced">
         <setting label="Custom domains" type="lsep"/>
+        <setting id="base_rutor" type="text" label="RuTor.org" default="http://rutor.org" />
         <setting id="base_eztv" type="text" label="EZTV" default="http://eztv.it" />
         <setting id="base_yify" type="text" label="YIFY Torrents" default="http://yify-torrents.com" />
         <setting id="base_kickass" type="text" label="Kickass Torrents" default="http://kickass.to" />
