@@ -21,6 +21,7 @@
     <category label="Scrapers">
         <setting label="Enable Scrapers" type="lsep"/>
         <setting id="rutor_enabled" type="bool" label="RuTor.org" default="true" />
+        <setting id="lostfilm_enabled" type="bool" label="LostFilm.tv" default="true" />
         <setting id="eztv_enabled" type="bool" label="EZTV" default="true" />
         <setting id="yify_enabled" type="bool" label="YIFY Torrents" default="true" />
         <setting id="kickass_enabled" type="bool" label="Kickass Torrents" default="true" />
@@ -28,6 +29,10 @@
 
         <setting label="RuTor.org" type="lsep"/>
         <setting id="rutor_usesearch" type="bool" label="Search movie info at internet" default="false" />
+
+        <setting label="LostFilm credentials" type="lsep"/>
+        <setting id="lostfilm_login" type="text" label="Login" default="" />
+        <setting id="lostfilm_passw" type="text" label="Password" option="hidden" default="" />
     </category>
     <category label="Advanced">
         <setting label="Custom domains" type="lsep"/>
