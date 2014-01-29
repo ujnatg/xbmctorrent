@@ -26,7 +26,7 @@ $(ZIP_FILE): addon.xml
 	zip -9 -r -g $(ZIP_FILE) $(NAME)/addon.xml
 	for arch in $(ARCHS); do \
 		ln -s `pwd`/resources/bin/$$arch $(NAME)/resources/bin/$$arch; \
-		zip -9 -r -g $(ZIP_FILE) $(NAME)/resources/bin/$$arch; \
+		zip -9 -r -x *.gitkeep -g $(ZIP_FILE) $(NAME)/resources/bin/$$arch; \
 	done
 	rm -rf $(NAME)
 
