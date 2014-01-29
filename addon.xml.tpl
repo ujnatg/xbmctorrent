@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.xbmctorrent" name="XBMCtorrent" version="$VERSION" provider-name="steeve">
+<addon id="plugin.video.xbmctorrent" name="XBMCtorrent" version="$VERSION" provider-name="steeve, nightik">
     <requires>
         <import addon="xbmc.python" version="2.1.0"/>
     </requires>
     <extension point="xbmc.python.pluginsource" library="addon.py">
         <provides>video</provides>
     </extension>
-    <extension point="xbmc.addon.repository" name="XBMCtorrent Autoupdate Repository">
-        <info compressed="false">http://xbmctorrent.herokuapp.com/addons.xml</info>
-        <checksum>http://xbmctorrent.herokuapp.com/addons.xml.md5</checksum>
-        <datadir zip="true">http://xbmctorrent.herokuapp.com/</datadir>
+    <extension point="xbmc.addon.repository" name="XBMCtorrent (RU) Autoupdate Repository">
+        <info compressed="false">https://cloclo1.datacloudmail.ru/weblink/get/8c8ab386191a/repository/addons.xml</info>
+        <checksum>https://cloclo1.datacloudmail.ru/weblink/get/8c8ab386191a/repository/addons.xml.md5</checksum>
+        <datadir zip="true">https://cloclo1.datacloudmail.ru/weblink/get/8c8ab386191a/repository/</datadir>
     </extension>
     <extension point="xbmc.addon.metadata">
         <platform>all</platform>
