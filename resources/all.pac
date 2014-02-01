@@ -10,12 +10,12 @@
 //
 // 	PLEASE KEEP THIS FILE UPDATED IF YOU MIRROR IT LOCALLY. WE OFTEN MAKE A LOT OF CHANGES TO IT.
 //
-//	Generated at Sat, 18 Jan 2014 09:39:45 +0100	141.101.98.87//
+//	Generated at Fri, 31 Jan 2014 15:35:31 +0100	141.101.99.206//
 
 function FindProxyForURL(url, host) {
     // Our proxy server name and port
     // This is randomly generated and changes each time you request the PAC file
-    var proxyserver = 'gateway-7263094f.cloud.immunicity.net:8080';
+    var proxyserver = 'gateway-0e42706f.cloud.immunicity.net:8080';
     //
     //  Here's a list of hosts to connect via the PROXY server
     // 		Don't add your own URLs - they wont work. Only these domains are allowed via our proxy servers
@@ -365,6 +365,10 @@ function FindProxyForURL(url, host) {
 	"www.tubeplus.me",
 	"vk.com",
 	"www.vk.com",
+	"yts.re",
+	"www.yts.re",
+	"static.yts.re",
+	"www.static.yts.re",
 	"integrity.immunicity.net"
   );
     // Return our proxy name for matched domains/hosts
