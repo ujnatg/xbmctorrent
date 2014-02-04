@@ -1,5 +1,6 @@
 import sys, os
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'resources', 'site-packages'))
+from xbmctorrent import monkey_patches
 
 def get_params():
   param = []
