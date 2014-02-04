@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <settings>
+    <setting id="firstrun" type="bool" label="" default="false" visible="false" />
     <category label="General">
         <setting label="Download" type="lsep" />
         <setting id="dlpath" type="folder" label="Download Path" source="auto" option="writeable" />
