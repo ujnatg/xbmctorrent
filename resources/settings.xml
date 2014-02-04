@@ -33,6 +33,8 @@
         <setting id="yify_enabled" type="bool" label="YIFY Torrents" default="true" />
         <setting id="kickass_enabled" type="bool" label="Kickass Torrents" default="true" />
         <setting id="tpb_enabled" type="bool" label="The Pirate Bay" default="true" />
+        <setting id="nyaa_enabled" type="bool" label="NyaaTorrents" default="true" />
+        <setting id="bitsnoop_enabled" type="bool" label="BitSnoop" default="true" />
 
         <setting label="RuTor.org" type="lsep"/>
         <setting id="rutor_usesearch" type="bool" label="Search movie info at internet" default="false" />
@@ -58,6 +60,8 @@
         <setting id="base_yify" type="text" label="YIFY Torrents" default="http://yts.re" />
         <setting id="base_kickass" type="text" label="Kickass Torrents" default="http://kickass.to" />
         <setting id="base_tpb" type="text" label="The Pirate Bay" default="http://thepiratebay.se" />
+        <setting id="base_nyaa" type="text" label="NyaaTorrents" default="http://www.nyaa.se" />
+        <setting id="base_bitsnoop" type="text" label="BitSnoop" default="http://bitsnoop.com" />
 
 
         <setting label="Google Analytics" type="lsep"/>
