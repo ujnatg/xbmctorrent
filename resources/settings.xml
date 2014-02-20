@@ -37,6 +37,7 @@
         <setting id="nyaa_enabled" type="bool" label="NyaaTorrents" default="true" />
         <setting id="bitsnoop_enabled" type="bool" label="BitSnoop" default="true" />
         <setting id="extratorrent_ebabled" type="bool" label="ExtraTorrent" default="true" />
+        <setting id="btdigg_enabled" type="bool" label="BTDigg" default="true" />
 
         <setting label="RuTor.org" type="lsep"/>
         <setting id="rutor_usesearch" type="bool" label="Search movie info at internet" default="false" />
@@ -65,6 +66,7 @@
         <setting id="base_nyaa" type="text" label="NyaaTorrents" default="http://www.nyaa.se" />
         <setting id="base_bitsnoop" type="text" label="BitSnoop" default="http://bitsnoop.com" />
         <setting id="base_extratorrent" type="text" label="ExtraTorrent" default="http://extratorrent.cc" />
+        <setting id="base_btdigg" type="text" label="BTDigg" default="http://btdigg.org" />
 
 
         <setting label="Google Analytics" type="lsep"/>
