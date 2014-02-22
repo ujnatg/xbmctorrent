@@ -17,8 +17,7 @@
 
         <setting label="AceStream options" type="lsep" />
         <setting id="force_ace" label="Force using AceEngine" type="bool" default="false"/>
-        <setting id="ace_keep_encripted" label="Keep encripted files" type="bool" default="false" enable="eq(1,true)"/>
-        <setting id="keep_files" type="bool" label="" visible="false" />
+        <setting id="ace_keep_encripted" label="Keep encripted files" type="bool" default="false" enable="eq(-10,true)"/>
     </category>
     <category label="Scrapers">
         <setting label="Enable Scrapers" type="lsep"/>
