@@ -7,9 +7,9 @@
         <provides>video</provides>
     </extension>
     <extension point="xbmc.addon.repository" name="XBMCtorrent (RU) Autoupdate Repository">
-        <info compressed="false">https://cloclo1.datacloudmail.ru/weblink/get/8c8ab386191a/repository/addons.xml</info>
-        <checksum>https://cloclo1.datacloudmail.ru/weblink/get/8c8ab386191a/repository/addons.xml.md5</checksum>
-        <datadir zip="true">https://cloclo1.datacloudmail.ru/weblink/get/8c8ab386191a/repository/</datadir>
+        <info compressed="false">http://afedchin.github.io/repository/addons.xml</info>
+        <checksum>http://afedchin.github.io/repository/addons.xml.md5</checksum>
+        <datadir zip="true">http://afedchin.github.io/repository/</datadir>
     </extension>
     <extension point="xbmc.addon.metadata">
         <platform>all</platform>
