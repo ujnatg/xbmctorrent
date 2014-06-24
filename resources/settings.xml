@@ -18,6 +18,8 @@
         <setting label="AceStream options" type="lsep" />
         <setting id="force_ace" label="Force using AceEngine" type="bool" default="false"/>
         <setting id="ace_keep_encripted" label="Keep encripted files" type="bool" default="false" enable="eq(-10,true)"/>
+        <setting id="ace_host" label="AceEngine remote host" type="ipaddress" default="127.0.0.1"/>
+        <setting id="ace_port" label="AceEngine remote port" type="number" default="62062"/>
     </category>
     <category label="Scrapers">
         <setting label="Enable Scrapers" type="lsep"/>
